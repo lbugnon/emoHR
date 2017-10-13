@@ -1,15 +1,20 @@
-emoHR: Dimensional Affect Recognition from HRV
-sinc(i) - http://fich.unl.edu.ar/sinc/
-Leandro Bugnon (lbugnon@sinc.unl.edu.ar)
-----------------------------------------
+# emoHR: Dimensional Affect Recognition from HRV
+
+# sinc(i) - www.sinc.unl.edu.ar
+
+### Leandro Bugnon, Rafael Calvo, Diego Milone
+
+_lbugnon@sinc.unl.edu.ar_
+
+---
 
 This is a distribution of the source code used in: 
 
-L.A. Bugnon, R.A. Calvo and D.H. Milone, "Dimensional Affect Recognition from HRV: an Approach Based on Supervised SOM and ELM", (under review in) IEEE Transactions on Affective Computing , 2017. 
+L.A. Bugnon, R.A. Calvo and D.H. Milone, "Dimensional Affect Recognition from HRV: an Approach Based on Supervised SOM and ELM", (to appear in) IEEE Transactions on Affective Computing , 2017. 
 
 This code can be used, modified or distributed for academic purposes under GNU GPL. 
 
-Supervised Self-Organizing Maps (sSOM) and two types of Extreme Learning Machines (kELM and nELM) are provided. For a very quick test, you can try these methods in a web-demo application: http://fich.unl.edu.ar/sinc/web-demo/dimensional-affect-recognition/. The only requirement is a web browser. 
+Supervised Self-Organizing Maps (sSOM) and two types of Extreme Learning Machines (kELM and nELM) are provided. For a very quick test, you can try these methods in a web-demo application: http://sinc.unl.edu.ar/web-demo/dimensional-affect-recognition/. The only requirement is a web browser. 
 
 To use this code, please run the ‘main.m’ with Matlab software (R2013 or higher). In this implementation, methods are trained and tested using a reduced feature set extracted from RECOLA dataset. Only Heart Rate Variability (HRV) is used as input to estimate dimensional affect targets: arousal and valence. The outputs of the script are: the correlation concordance coefficient (ccc), the classifiers outputs and the graphical interpretation by sSOM.
  
