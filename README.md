@@ -14,8 +14,6 @@ Classifier hyperparameters are in 'config/'. This parameters can be easily modif
 
 The HRV features can be extracted directly from the HR signal provided in the RECOLA dataset. If you want to do so, please download the dataset from https://diuf.unifr.ch/diva/recola/ and set the flag ‘forceFeatureExtraction=true’ in ‘main.m’. From the AVEC_2016, copy the folders 'recordings_physio' and 'ratings_gold_standard' into the 'recola' folder.
 
-sinc(i) - www.sinc.unl.edu.ar
-
-Leandro Bugnon, Rafael Calvo, Diego Milone
-
+sinc(i) - www.sinc.unl.edu.ar  
+Leandro Bugnon, Rafael Calvo, Diego Milone  
 _lbugnon@sinc.unl.edu.ar_
